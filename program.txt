@@ -1,5 +1,6 @@
 int main()
 {
-	int a = 5 + 2;
-//Komentarz
+	int liczba = 10 * 23;
+//Drugi opis
+	System.out.println(liczba);
 }
