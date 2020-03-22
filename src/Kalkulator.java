@@ -78,7 +78,8 @@ public class Kalkulator {
 
 
                 }
-
+                /*Darowałem sobie tę prostszą wersje programu bo ta jest bardziej zaawansowana i nie ma sensu wracać
+                do tamtej*/
 
             }
 
