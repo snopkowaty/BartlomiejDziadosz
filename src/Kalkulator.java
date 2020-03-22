@@ -26,6 +26,7 @@ public class Kalkulator {
                 System.out.println("5.Potęgowanie [^]");
                 System.out.println("6.Wartość bezwzględna [m]");
                 System.out.println("7.Silnia z liczby [!]");
+                System.out.println();
                 System.out.println("Wybierz numer działania ");
                 c = x.nextInt();
                 switch (c) {
