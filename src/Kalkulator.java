@@ -80,7 +80,6 @@ public class Kalkulator {
 
 
             }
-            //Ten kalkulator na samymch if/else już sobie darowałem gdyż ten jest bardziej zaawansowany
 
 
 
