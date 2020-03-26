@@ -11,6 +11,8 @@ public class Kalkulator {
 
 
             for (;;) {
+                count = 1;
+                count2 = 1;
 
                 System.out.println("Twoja pierwsza liczba : ");
                 a = x.nextInt();
@@ -51,22 +53,24 @@ public class Kalkulator {
                         System.out.println("Wybrałeś Potęgowanie liczby pierwszej [^] o liczbę drugą a twój wynik to " + wynikNext);
                         break;
                     case 6:
-                        a1 = Math.abs(a);
-                        b1 = Math.abs(b);
-                        if (a != 0 & b != 0) {
-                            System.out.println("Wybrałeś wartość bezwzględna z liczby " + a + " i wynosi ona " + a1);
-                            System.out.println("oraz wartość bezwzględna z liczby " + b + " i wynosi ona " + b1);
+                        System.out.print("Wybrałeś wartość bezwzględna z liczby [m], dla tej operacji proszę wprowadzić");
+                        System.out.print(" tylko jedną liczbę \n");
+                        System.out.println("Wybierz liczbę: ");
+                        int ax = x.nextInt();
+                        int a2 = Math.abs(ax);
+                        if (ax != 0) {
+                            System.out.println("Wybrałeś wartość bezwzględna z liczby " + ax + " i wynosi ona " + a2);
                         } else System.out.println("Nie można policzyć wartości bezwzglednej z liczby " + 0);
                         break;
                     case 7:
-                        int i;
-                        for (i = 1; i <= a; i++) {
+
+                        for (int i = 1; i <= a; i++) {
                             count *= i;
 
 
                         }
                         System.out.println("Wybrałeś liczbę " + a + " Silnia wynosi " + count);
-                        for (i = 1; i <= b; i++) {
+                        for (int i = 1; i <= b; i++) {
                             count2 *= i;
 
 
@@ -78,8 +82,7 @@ public class Kalkulator {
 
 
                 }
-                /*Darowałem sobie tę prostszą wersje programu bo ta jest bardziej zaawansowana i nie ma sensu wracać
-                do tamtej*/
+
 
             }
 
